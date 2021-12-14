@@ -15,3 +15,7 @@ CPU主频就是CPU运算时的工作频率，在单核时间它是决定CPU性�
 虽然提高频率能有效提高CPU性能，但受限于制作工艺等物理因素，早在2004年，提高频率便遇到了瓶颈，于是Intel/AMD只能另辟途径来提升CPU性能，双核、多核CPU应运而生。
 
 其实增加核心数目就是为了增加线程数，因为操作系统是通过线程来执行任务的，一般情况下它们是1:1对应关系，也就是说四核CPU一般拥有四个线程。但Intel引入超线程技术后，使核心数与线程数形成1:2的关系，如四核Core i7支持八线程(或叫作八个逻辑核心)，大幅提升了其多任务、多线程性能。
+
+![image](https://user-images.githubusercontent.com/26539681/145919185-27aa3176-579f-41cf-9673-6978e6516570.png)
+![image](https://user-images.githubusercontent.com/26539681/145919212-82ce1f39-3349-4fab-b735-53b6464b49da.png)
+![image](https://user-images.githubusercontent.com/26539681/145919285-70f40f00-6f8f-4f43-b859-0c4b47fb2205.png)
